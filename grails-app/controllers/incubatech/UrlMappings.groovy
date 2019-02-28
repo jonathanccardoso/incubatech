@@ -10,6 +10,8 @@ class UrlMappings {
         }
 
         "/"(view:"/index")
+        "/company"(view:"/company")
+        "/collaborator"(view:"/collaborator")        
         "500"(view:'/error')
         "404"(view:'/notFound')
     }
