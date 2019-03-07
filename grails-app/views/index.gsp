@@ -12,7 +12,8 @@
             <h1>Start Bootstrap</h1>
             <h3>Free Bootstrap Themes &amp; Templates</h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <!--<a href="#about" class="btn btn-dark btn-lg">Find Out More</a>-->
+            <g:link class="btn btn-dark btn-lg" url="[action:'redirect',controller:'company']">Find Out More</g:link>
         </div>
     </header>
 
@@ -61,7 +62,39 @@
         </div>
         <!-- /.container -->
     </section>
-    
+
+    <!-- footer -->
+    <footer class="footer text-center" style="background-color:#f6bd12;">
+        <div class="container">
+        <ul class="list-inline mb-5">
+            <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+                <!--<i class="icon-social-facebook"></i>-->
+                <i class="fab fa-facebook-square fa-3x"></i>
+            </a>
+            </li>
+            <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+                <!--<i class="icon-social-twitter"></i>-->
+                <i class="fab fa-twitter-square fa-3x"></i>
+            </a>
+            </li>
+            <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="#">
+                <!--<i class="icon-social-github"></i>-->
+                <i class="fab fa-github-square fa-3x"></i>
+            </a>
+            </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright © Your Website 2019</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#top">
+        <!--<i class="fas fa-angle-up"></i>-->
+        <i class="fas fa-chevron-up"></i>
+    </a>
 
 <!--
     <content tag="nav">

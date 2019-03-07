@@ -11,6 +11,6 @@
 *= require theme
 * require grails
 * require main
-* require mobile
+*= require mobile
 *= require_self
 */

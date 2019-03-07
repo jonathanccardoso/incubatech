@@ -9,6 +9,11 @@ class CompanyController {
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
+    def redirect() {
+        redirect(uri: "/")
+        //render(view:"/")
+    }
+
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         respond companyService.list(params), model:[companyCount: companyService.count()]

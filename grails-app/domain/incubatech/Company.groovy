@@ -7,11 +7,20 @@ class Company {
     Integer CNPJ
     String email
     
+    //1 colaborador
+    Collaborator collaborator
+
     static constraints = {
         name blank: false, nullable: false
-        CNPJ(nullable: false) 
+        CNPJ(nullable: false)
         email nullable: false, email: true
     }
+
+    //change name of foreign key in db 
+    static mapping = {
+        collaborator column: "id_collaborator"
+    }
+
 
    /* def toPdf = {
         def baseUri = request.scheme + "://" + request.serverName + ":" + request.serverPort + grailsAttributes.getApplicationUri(request)
