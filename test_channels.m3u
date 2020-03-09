@@ -1,18 +1,11 @@
 #EXTM3U
-
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=496000,RESOLUTION=426x240,CODECS="avc1.66.30, mp4a.40.2"
-https://playplusespn-lh.akamaihd.net/i/pp_espnbra@374460/index_240_av-p.m3u8?sd=10&rebase=on
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=794000,RESOLUTION=426x240,CODECS="avc1.77.30, mp4a.40.2"
-https://playplusespn-lh.akamaihd.net/i/pp_espnbra@374460/index_240_av-b.m3u8?sd=10&rebase=on
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=846000,RESOLUTION=640x360,CODECS="avc1.66.30, mp4a.40.2"
-https://playplusespn-lh.akamaihd.net/i/pp_espnbra@374460/index_360_av-p.m3u8?sd=10&rebase=on
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1233000,RESOLUTION=640x360,CODECS="avc1.77.30, mp4a.40.2"
-https://playplusespn-lh.akamaihd.net/i/pp_espnbra@374460/index_360_av-b.m3u8?sd=10&rebase=on
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1296000,RESOLUTION=848x480,CODECS="avc1.66.30, mp4a.40.2"
-https://playplusespn-lh.akamaihd.net/i/pp_espnbra@374460/index_480_av-p.m3u8?sd=10&rebase=on
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1687000,RESOLUTION=848x480,CODECS="avc1.77.30, mp4a.40.2"
-https://playplusespn-lh.akamaihd.net/i/pp_espnbra@374460/index_480_av-b.m3u8?sd=10&rebase=on
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2628000,RESOLUTION=1280x720,CODECS="avc1.640029, mp4a.40.2"
-https://playplusespn-lh.akamaihd.net/i/pp_espnbra@374460/index_720_av-p.m3u8?sd=10&rebase=on
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2078000,RESOLUTION=1280x720,CODECS="avc1.77.30, mp4a.40.2"
-https://playplusespn-lh.akamaihd.net/i/pp_espnbra@374460/index_720_av-b.m3u8?sd=10&rebase=on
+#EXT-X-TARGETDURATION:10
+#EXT-X-ALLOW-CACHE:YES
+#EXT-X-VERSION:3
+#EXT-X-MEDIA-SEQUENCE:158378546
+#EXTINF:10.000,
+https://playplusespn-lh.akamaihd.net/i/pp_espnbra@374460/segment158378546_240_av-b.ts?sd=10&rebase=on
+#EXTINF:10.000,
+https://playplusespn-lh.akamaihd.net/i/pp_espnbra@374460/segment158378547_240_av-b.ts?sd=10&rebase=on
+#EXTINF:10.000,
+https://playplusespn-lh.akamaihd.net/i/pp_espnbra@374460/segment158378548_240_av-b.ts?sd=10&rebase=on
